@@ -36,10 +36,10 @@ def main():
         
 
 
-    
-
-
-main()
+try:
+    main()
+except KeyboardInterrupt:
+    print("\r\nExiting...")
 
 
 
